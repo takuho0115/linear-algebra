@@ -13,13 +13,27 @@
 	
 	群論等にも触れながら、線形代数とそれに深く関わるその他の学問体系全体を易しく理解できるものとしたい。
 	\section{線形とはどういう意味か}
-	線形代数は英語ではliniear algebraだ。線形という言葉は、言い換えるとリニア、直線、一次の、という意味があることがわかる。
+	線形代数は英語ではliniear algebraだ。線形という言葉は、言い換えるとリニア、直線、一次の、という意味があることがわかる。日本語で「線」というと、直線だけでなく、双曲線であれ放物線であれ線であるが、数学における線形とは、直線であるということだ。
 	
-	実際、線形という言葉の定義は、非常にシンプルに直線を言い表している。例えば線形関数の定義は、以下のようになっている。
+	数学で扱う線形な性質を持つものにもいくつか種類がある。線形関数、線形方程式、そして線形代数などだ。ここで線形関数を例に取ってみると、下記のように線形な関数と非線形な関数が存在する。
+	\begin{itembox}[l]{線形関数の例}
+		\begin{itemize}
+			\item $f(x)=2x$
+			\item $f(x)=ex$
+		\end{itemize}
+	\end{itembox}
+	\begin{itembox}[l]{非線形関数の例}
+		\begin{itemize}
+			\item $f(x)=x^2$
+			\item $f(x)=\sin x$
+			\item $f(x)=|x|$
+		\end{itemize}
+	\end{itembox}
+	線形関数は線形写像とも呼ばれ、以下のように定義されている。
 	\begin{itembox}[l]{線形関数の定義}
 		\begin{itemize}
-			\item 加法性(additivity) 任意のx,yに対して、 f(x+y)
-
+			\item 加法性(additivity) 任意の$x,y$に対して、 $f(x+y)=f(x)+f(y)$
+			\item 斉次性(homogeneity) 任意の$x$, 任意のスカラー$k$について、$f(kx)=kf(x)$
 		\end{itemize}
 	\end{itembox}
 \end{document}
